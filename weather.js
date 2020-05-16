@@ -1,6 +1,6 @@
 $(document).ready(function() {
         $.ajax({
-            url: 'http://localhost:8888/weather.php',
+            url: 'http://localhost:8888/SmartMirror/weather.php',
             dataType: 'json',
             success: function(data) {
                 var temp = JSON.stringify(data.main.temp);
